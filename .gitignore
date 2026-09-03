@@ -1,0 +1,25 @@
+*.iml
+.gradle/
+.kotlin/
+.idea/
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local environment and signing credentials
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+*.pem
+*.p12
+*.key
+*.crt
+
+# Platform and tooling noise
+.DS_Store
+Thumbs.db
